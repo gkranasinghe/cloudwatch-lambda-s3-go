@@ -11,10 +11,7 @@ variable "s3_bucket" {
   description = "bucket logs will be put into"
 }
 
-variable "exporter_version" {
-  description = "Version of the cloudwatch-exporter to deploy. Defaults to the latest version available"
-  default     = "0.0.2"
-}
+
 
 variable "s3_prefix" {
   description = "prefix for your logs"

@@ -33,7 +33,6 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_exporter_version"></a> [exporter\_version](#input\_exporter\_version) | Version of the cloudwatch-exporter to deploy. Defaults to the latest version available | `string` | `"0.0.2"` | no |
 | <a name="input_log_group"></a> [log\_group](#input\_log\_group) | Name of Cloudwatch Log Group to export to S3 | `any` | n/a | yes |
 | <a name="input_name"></a> [name](#input\_name) | short description of the logs you're exporting | `string` | `"cloudwatch-export"` | no |
 | <a name="input_s3_bucket"></a> [s3\_bucket](#input\_s3\_bucket) | bucket logs will be put into | `any` | n/a | yes |
