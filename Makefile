@@ -5,7 +5,7 @@ init:
 	cd terraform && terraform init 
 
 docs:
-	terraform-docs markdown table . > README.md
+	cd terraform && terraform-docs markdown table . > ../README.md
 
 
 plan:
